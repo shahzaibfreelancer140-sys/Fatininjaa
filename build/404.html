@@ -11,6 +11,7 @@
 </head>
 
 <body class="bg-no-repeat bg-cover bg-center w-full" style="background-image: url(./assets/img/blackbackground.png);">
+    <!-- navbar section  -->
     <nav class="text-white flex justify-between items-center 
   2xl:px-24 lg:px-10 md:px-8 px-5 
   2xl:pt-12 lg:pt-7 md:pt-6 pt-4 
@@ -23,16 +24,47 @@
 
         <!-- Desktop Navigation Links -->
         <ul class="hidden lg:flex 2xl:gap-16 lg:gap-8 md:gap-6 text-[#ffffff]/70">
-            <li><a href="" class="text-base font-normal leading-6">Home</a></li>
-            <li><a href="" class="text-base font-normal leading-6">About</a></li>
-            <li><a href="" class="text-base font-normal leading-6">Blog</a></li>
-            <li><a href="" class="text-base font-normal leading-6">Contact</a></li>
+            <ul class="flex gap-10">
+                <li>
+                    <a href="index.html" class="text-base font-normal leading-6 relative group hover:text-[#D3ED05]">
+                        Home
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#D3ED05] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="About.us.html" class="text-base font-normal leading-6 relative group hover:text-[#D3ED05]">
+                        About
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#D3ED05] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="single blog page.html"
+                        class="text-base font-normal leading-6 relative group hover:text-[#D3ED05]">
+                        Blog
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#D3ED05] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./404.html" class="text-base font-normal leading-6 relative group hover:text-[#D3ED05]">
+                        Contact
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#D3ED05] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+            </ul>
         </ul>
 
         <!-- Desktop Button -->
-        <div class="hidden lg:block py-2 px-5 rounded-lg bg-[#D3ED05]">
-            <button class="text-base font-semibold leading-6 text-black">Explore NFTs</button>
+        <div
+            class="hidden lg:block py-2 px-5 rounded-lg bg-[#D3ED05] hover:shadow-[0_0_25px_#D3ED05] transition duration-300 ease-in-out">
+            <button class="text-base font-semibold leading-6 text-black">
+                Explore NFTs
+            </button>
         </div>
+
 
         <!-- Mobile Toggle Button -->
         <button id="menu-toggle" class="lg:hidden flex flex-col gap-1">
@@ -45,196 +77,204 @@
         <div id="mobile-menu"
             class="hidden absolute top-full left-0 w-full backdrop-blur-md flex-col items-center py-6 space-y-6">
             <ul class="flex flex-col gap-6 text-center text-[#ffffff]/70">
-                <li><a href="" class="text-base font-normal leading-6">Home</a></li>
-                <li><a href="" class="text-base font-normal leading-6">About</a></li>
-                <li><a href="" class="text-base font-normal leading-6">Blog</a></li>
-                <li><a href="" class="text-base font-normal leading-6">Contact</a></li>
+                <li><a href="index.html" class="text-base font-normal leading-6">Home</a></li>
+                <li><a href="About.us.html" class="text-base font-normal leading-6">About</a></li>
+                <li><a href="single blog page.html" class="text-base font-normal leading-6">Blog</a></li>
+                <li><a href="./404.html" class="text-base font-normal leading-6">Contact</a></li>
             </ul>
             <div class="flex justify-center">
-                <div class="py-2 px-5 rounded-lg bg-[#D3ED05]">
-                    <button class="text-base font-semibold leading-6 text-black">Explore NFTs</button>
+                <div
+                    class="py-2 px-5 rounded-lg bg-[#D3ED05] hover:shadow-[0_0_25px_#D3ED05] transition duration-300 ease-in-out">
+                    <button class="text-base font-semibold leading-6 text-black">
+                        Explore NFTs
+                    </button>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- end navbar section -->
 
 
-
+    <!-- WE CAN’T FIND THIS PAGE -->
     <section>
         <div class="flex justify-center 2xl:pt-48 lg:pt-24 pt-16">
             <img src="./assets/img/404.png" alt="">
         </div>
 
-            <div class="text-center 2xl:px-20 lg:px-10 px-5">
-                <div>
-                    <h1
-                        class="2xl:text-7xl xl:text-7xl lg:text-5xl md:text-[56px] text-2xl font-normal text-white -tracking-[-2px] leading-[100%]">
-                       WE CAN’T FIND
-                        <br> THIS PAGE
-                    </h1>
-                </div>
-                <div class="2xl:pt-4 lg:pt-3 pt-2">
-                    <p
-                        class="2xl:text-xl xl:text-base lg:text-xs md:text-lg text-xs 2xl:leading-7 lg:leading-5 leading-5 font-normal text-[#ffffff]/70">
-                       it looks like the page you’re looking for doesn’t exist or might have been  <br class="md:block hidden">moved. don’t worry, let’s get you back on track!</p>
-                </div>
-                <div class="2xl:py-3 lg:py-2 py-2 2xl:px-6 lg:px-4 px-5 rounded-lg bg-[#D3ED05] inline-block mt-6">
-                    <button
-                        class="2xl:text-base xl:text-base lg:text-xs text-xs font-semibold leading-6 text-black">Explore
-                        NFTs</button>
-                </div>
+        <div class="text-center 2xl:px-20 lg:px-10 px-5">
+            <div>
+                <h1
+                    class="2xl:text-7xl xl:text-7xl lg:text-5xl md:text-[56px] text-2xl font-normal text-white -tracking-[-2px] leading-[100%]">
+                    WE CAN’T FIND
+                    <br> THIS PAGE
+                </h1>
             </div>
-    </section>
-
-
-
-         <div class="w-full flex justify-center py-6 2xl:mt-48 mt-10">
-            <button id="backToTop" class="flex items-center gap-2 text-white px-6 py-3 ">
-                <i class="fa-solid fa-arrow-up 2xl:text-2xl text-xs"></i>
-                <span class="font-semibold 2xl:text-3xl text-sm leading-8">Back to top</span>
-            </button>
-        </div>
-
-
-
-        <footer>
+            <div class="2xl:pt-4 lg:pt-3 pt-2">
+                <p
+                    class="2xl:text-xl xl:text-base lg:text-xs md:text-lg text-xs 2xl:leading-7 lg:leading-5 leading-5 font-normal text-[#ffffff]/70">
+                    it looks like the page you’re looking for doesn’t exist or might have been <br
+                        class="md:block hidden">moved. don’t worry, let’s get you back on track!</p>
+            </div>
             <div
-                class="lg:flex md:grid grid-cols-2 items-start justify-between 2xl:px-24 lg:px-10 px-5 2xl:pt-24 pt-12">
+                class="2xl:py-3 lg:py-2 py-2 2xl:px-6 lg:px-4 px-5 rounded-lg bg-[#D3ED05] inline-block mt-6 hover:shadow-[0_0_25px_#D3ED05] transition duration-300 ease-in-out">
+                <button class="2xl:text-base xl:text-base lg:text-xs text-xs font-semibold leading-6 text-black">Explore
+                    NFTs</button>
+            </div>
+        </div>
+    </section>
+    <!-- end section  -->
+
+    <!-- Back to top button -->
+    <div class="w-full flex justify-center py-6 2xl:mt-48 mt-10">
+        <button id="backToTop"
+            class="flex items-center gap-2 text-white px-6 py-3 transition-colors duration-300 group">
+
+            <i class="fa-solid fa-arrow-up 2xl:text-2xl text-xs group-hover:text-[#D3ED05] animate-bounce-slow"></i>
+            <span class="font-semibold 2xl:text-3xl text-sm leading-8 group-hover:text-[#D3ED05]">
+                Back to top
+            </span>
+        </button>
+    </div>
+    <!-- end back drop  -->
+
+    <!-- footer -->
+    <footer>
+        <div class="lg:flex md:grid grid-cols-2 items-start justify-between 2xl:px-24 lg:px-10 px-5 2xl:pt-24 pt-12">
+            <div>
+                <div>
+                    <img src="./assets/img/logo.png" class="2xl:w-full xl:w-80 md:w-56 w-72" alt="">
+                </div>
+                <div class="pt-7">
+                    <p
+                        class="2xl:text-xl xl:text-2xl lg:text-base text-xs 2xl:leading-7 xl:leading-9 lg:leading-7 font-normal text-[#ffffff]/70">
+                        Forged in shadows. Ruled by community. <br class="lg:block hidden">
+                        Powered by Web3</p>
+                </div>
+                <div class="flex gap-9 items-center pt-12">
+                    <div>
+                        <img src="./assets/img/Mask group.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/img/x.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/img/w.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/img/y.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/img/t.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center 2xl:gap-48 xl:gap-20 gap-4 lg:mt-0 md:mt-0 mt-10">
                 <div>
                     <div>
-                        <img src="./assets/img/logo.png" class="2xl:w-full xl:w-80 md:w-56 w-72" alt="">
+                        <p class="2xl:text-2xl xl:text-2xl text-base 2xl:leading-8 leading-2 font-medium text-white">
+                            Company</p>
                     </div>
-                    <div class="pt-7">
-                        <p
-                            class="2xl:text-xl xl:text-2xl lg:text-base text-xs 2xl:leading-7 xl:leading-9 lg:leading-7 font-normal text-[#ffffff]/70">
-                            Forged in shadows. Ruled by community. <br class="lg:block hidden">
-                            Powered by Web3</p>
-                    </div>
-                    <div class="flex gap-9 items-center pt-12">
-                        <div>
-                            <img src="./assets/img/Mask group.png" alt="">
-                        </div>
-                        <div>
-                            <img src="./assets/img/x.png" alt="">
-                        </div>
-                        <div>
-                            <img src="./assets/img/w.png" alt="">
-                        </div>
-                        <div>
-                            <img src="./assets/img/y.png" alt="">
-                        </div>
-                        <div>
-                            <img src="./assets/img/t.png" alt="">
-                        </div>
-                    </div>
+                    <ul class="2xl:pt-12 xl:pt-5 pt-1">
+                        <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 "><a
+                                href="./latest news.html">latest news</a></li>
+                        <li
+                            class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
+                            <a href="./ninja collection.html">collection</a>
+                        </li>
+                        <li
+                            class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
+                            <a href="./single blog page.html">Blog Details</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="flex items-center 2xl:gap-48 xl:gap-20 gap-4 lg:mt-0 md:mt-0 mt-10">
+                <div class="">
                     <div>
-                        <div>
-                            <p
-                                class="2xl:text-2xl xl:text-2xl text-base 2xl:leading-8 leading-2 font-medium text-white">
-                                Company</p>
-                        </div>
-                        <ul class="2xl:pt-12 xl:pt-5 pt-1">
-                            <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 ">About
-                            </li>
-                            <li
-                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Blog
-                            </li>
-                            <li
-                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Blog
-                                Details</li>
-                        </ul>
+                        <p class="2xl:text-2xl xl:text-2xl text-base leading-8 font-medium text-white">Quick Links</p>
                     </div>
-                    <div class="">
-                        <div>
-                            <p class="2xl:text-2xl xl:text-2xl text-base leading-8 font-medium text-white">Quick Links
-                            </p>
-                        </div>
-                        <ul class="2xl:pt-12 xl:pt-5 pt-1">
-                            <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70">Home
-                            </li>
-                            <li
-                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Tokenomics</li>
-                            <li
-                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Team
-                            </li>
-                        </ul>
+                    <ul class="2xl:pt-12 xl:pt-5 pt-1">
+                        <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70"><a
+                                href="index.html">Home</a></li>
+                        <li
+                            class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
+                            <a href="./about us.html">About Us</a>
+                        </li>
+                        <li
+                            class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
+                            <a href="./contact us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="">
+                    <div>
+                        <p class="2xl:text-2xl xl:text-2xl text-base leading-8 font-medium text-white">Legal Links</p>
                     </div>
-                    <div class="">
-                        <div>
-                            <p class="2xl:text-2xl xl:text-2xl text-base leading-8 font-medium text-white">Legal Links
-                            </p>
-                        </div>
-                        <ul class="2xl:pt-12 xl:pt-5 pt-1">
-                            <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 ">Terms
-                                of Use</li>
-                            <li
-                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Privacy
-                                Policy</li>
-                            <li
-                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Team
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="2xl:pt-12 xl:pt-5 pt-1">
+                        <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 ">Terms of
+                            Use</li>
+                        <li
+                            class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
+                            Privacy
+                            Policy</li>
+                        <li
+                            class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
+                            Team
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="flex justify-center py-5 2xl:mt-36 mt-8">
-                <div class="bg-white h-[2px] 2xl:w-[90%] md:w-[95%] w-[90%]"></div>
+        </div>
+        <div class="flex justify-center py-5 2xl:mt-36 mt-8">
+            <div class="bg-white h-[2px] 2xl:w-[90%] md:w-[95%] w-[90%]"></div>
+        </div>
+        <div class="2xl:px-24 lg:px-10 px-5 lg:flex items-center md:grid grid-cols-2 justify-between text-white">
+            <div>
+                <p class="2xl:text-xl text-base leading-8 font-normal">© 2025 theriss.net All rights reserved.</p>
             </div>
-            <div class="2xl:px-24 lg:px-10 px-5 lg:flex items-center md:grid grid-cols-2 justify-between text-white">
+            <div class="flex justify-center items-center gap-4 ">
                 <div>
-                    <p class="2xl:text-xl text-base leading-8 font-normal">© 2025 theriss.net All rights reserved.</p>
+                    <p class="2xl:text-xl text-sm leading-8 font-normal">Innovation</p>
                 </div>
-                <div class="flex justify-center items-center gap-4 ">
-                    <div>
-                        <p class="2xl:text-xl text-sm leading-8 font-normal">Innovation</p>
-                    </div>
-                    <div>
-                        <p class="2xl:text-xl text-sm leading-8 font-normal">Creativity</p>
-                    </div>
-                    <div>
-                        <p class="2xl:text-xl text-sm leading-8 font-normal">Excellence.</p>
-                    </div>
+                <div>
+                    <p class="2xl:text-xl text-sm leading-8 font-normal">Creativity</p>
+                </div>
+                <div>
+                    <p class="2xl:text-xl text-sm leading-8 font-normal">Excellence.</p>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
+    <!-- end footer -->
 
 
+    <!-- toogle button  -->
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
 
-         <script>
-    const toggleBtn = document.getElementById('menu-toggle');
-    const mobileMenu = document.getElementById('mobile-menu');
+        toggleBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex'); // Show flex when open
 
-    toggleBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-      mobileMenu.classList.toggle('flex'); // Show flex when open
+            // Animate hamburger into X
+            const spans = toggleBtn.querySelectorAll('span');
+            spans[0].classList.toggle('rotate-45');
+            spans[0].classList.toggle('translate-y-2');
+            spans[1].classList.toggle('opacity-0');
+            spans[2].classList.toggle('-rotate-45');
+            spans[2].classList.toggle('-translate-y-2');
+        });
+    </script>
+    <!-- end toggle button  -->
 
-      // Animate hamburger into X
-      const spans = toggleBtn.querySelectorAll('span');
-      spans[0].classList.toggle('rotate-45');
-      spans[0].classList.toggle('translate-y-2');
-      spans[1].classList.toggle('opacity-0');
-      spans[2].classList.toggle('-rotate-45');
-      spans[2].classList.toggle('-translate-y-2');
-    });
-  </script>
+    <!-- back to top button  -->
+    <script>
+        const backToTop = document.getElementById("backToTop");
 
-
-
- <script>
-    const backToTop = document.getElementById("backToTop");
-
-    backToTop.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-  </script>
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+    <!-- end back to top button  -->
 </body>
 
 </html>

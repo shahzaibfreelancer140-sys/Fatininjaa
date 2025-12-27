@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <!-- navbar section  -->
     <nav class="text-white flex justify-between items-center 
   2xl:px-24 lg:px-10 md:px-8 px-5 
   2xl:pt-12 lg:pt-7 md:pt-6 pt-4 
@@ -22,16 +23,47 @@
 
         <!-- Desktop Navigation Links -->
         <ul class="hidden lg:flex 2xl:gap-16 lg:gap-8 md:gap-6 text-[#ffffff]/70">
-            <li><a href="" class="text-base font-normal leading-6">Home</a></li>
-            <li><a href="" class="text-base font-normal leading-6">About</a></li>
-            <li><a href="" class="text-base font-normal leading-6">Blog</a></li>
-            <li><a href="" class="text-base font-normal leading-6">Contact</a></li>
+            <ul class="flex gap-10">
+                <li>
+                    <a href="index.html" class="text-base font-normal leading-6 relative group hover:text-[#D3ED05]">
+                        Home
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#D3ED05] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="About.us.html" class="text-base font-normal leading-6 relative group hover:text-[#D3ED05]">
+                        About
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#D3ED05] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="single blog page.html"
+                        class="text-base font-normal leading-6 relative group hover:text-[#D3ED05]">
+                        Blog
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#D3ED05] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./404.html" class="text-base font-normal leading-6 relative group hover:text-[#D3ED05]">
+                        Contact
+                        <span
+                            class="absolute left-0 bottom-0 w-0 h-[2px] bg-[#D3ED05] transition-all duration-300 group-hover:w-full"></span>
+                    </a>
+                </li>
+            </ul>
         </ul>
 
         <!-- Desktop Button -->
-        <div class="hidden lg:block py-2 px-5 rounded-lg bg-[#D3ED05]">
-            <button class="text-base font-semibold leading-6 text-black">Explore NFTs</button>
+        <div
+            class="hidden lg:block py-2 px-5 rounded-lg bg-[#D3ED05] hover:shadow-[0_0_25px_#D3ED05] transition duration-300 ease-in-out">
+            <button class="text-base font-semibold leading-6 text-black">
+                Explore NFTs
+            </button>
         </div>
+
 
         <!-- Mobile Toggle Button -->
         <button id="menu-toggle" class="lg:hidden flex flex-col gap-1">
@@ -44,46 +76,52 @@
         <div id="mobile-menu"
             class="hidden absolute top-full left-0 w-full backdrop-blur-md flex-col items-center py-6 space-y-6">
             <ul class="flex flex-col gap-6 text-center text-[#ffffff]/70">
-                <li><a href="" class="text-base font-normal leading-6">Home</a></li>
-                <li><a href="" class="text-base font-normal leading-6">About</a></li>
-                <li><a href="" class="text-base font-normal leading-6">Blog</a></li>
-                <li><a href="" class="text-base font-normal leading-6">Contact</a></li>
+                <li><a href="index.html" class="text-base font-normal leading-6">Home</a></li>
+                <li><a href="About.us.html" class="text-base font-normal leading-6">About</a></li>
+                <li><a href="single blog page.html" class="text-base font-normal leading-6">Blog</a></li>
+                <li><a href="./404.html" class="text-base font-normal leading-6">Contact</a></li>
             </ul>
             <div class="flex justify-center">
-                <div class="py-2 px-5 rounded-lg bg-[#D3ED05]">
-                    <button class="text-base font-semibold leading-6 text-black">Explore NFTs</button>
+                <div
+                    class="py-2 px-5 rounded-lg bg-[#D3ED05] hover:shadow-[0_0_25px_#D3ED05] transition duration-300 ease-in-out">
+                    <button class="text-base font-semibold leading-6 text-black">
+                        Explore NFTs
+                    </button>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- end navbar section -->
 
-
+    <!-- hero section  -->
     <section style="background-image: url(./assets/img/collectionbg.png);"
-        class="bg-no-repeat bg-cover 2xl:h-[747px] md:h-[429px] h-[330px] w-full bg-center relative">
-    </section>
-
-    <section>
-        <div class="text-center absolute z-20 w-full 2xl:pt-48 xl:pt-40 md:pt-32 pt-24 lg:px-10 px-5 top-0">
-            <div>
-                <h1
-                    class="2xl:text-7xl xl:text-5xl lg:text-4xl md:text-4xl text-2xl font-normal text-white 2xl:-tracking-[2px] tracking-[1px]">
-                    NINJA
-                    <br> COLLECTION
-                </h1>
-            </div>
-            <div class="2xl:pt-4 lg:pt-3 pt-2">
-                <p
-                    class="2xl:text-xl xl:text-base lg:text-xs md:text-base text-xs 2xl:leading-7 lg:leading-5 leading-5 font-normal text-[#ffffff]/70">
-                    Collect, trade, and stealth mint exclusive masked ninja nfts in <br class="md:block hidden">the
-                    shadows of the blockchain.</p>
+        class="bg-no-repeat bg-cover 2xl:h-[747px] md:h-[429px] h-[330px] w-full bg-center">
+        <div>
+            <div class="text-center w-full 2xl:pt-48 xl:pt-40 md:pt-32 pt-24 lg:px-10 px-5">
+                <div>
+                    <h1
+                        class="2xl:text-7xl xl:text-5xl lg:text-4xl md:text-4xl text-2xl font-normal text-white 2xl:-tracking-[2px] tracking-[1px] animate-two">
+                        <span>N</span><span>I</span><span>N</span><span>J</span><span>A</span>
+                        <br>
+                        <span>C</span><span>O</span><span>L</span><span>L</span><span>E</span><span>C</span><span>T</span><span>I</span><span>O</span><span>N</span>
+                    </h1>
+                </div>
+                <div class="2xl:pt-4 lg:pt-3 pt-2">
+                    <p
+                        class="2xl:text-xl xl:text-base lg:text-xs md:text-base text-xs 2xl:leading-7 lg:leading-5 leading-5 font-normal text-[#ffffff]/70">
+                        Collect, trade, and stealth mint exclusive masked ninja nfts in <br class="md:block hidden">the
+                        shadows of the blockchain.</p>
+                </div>
             </div>
         </div>
     </section>
+    <!-- end hero section  -->
 
     <section class="bg-no-repeat bg-cover bg-center w-full"
         style="background-image: url(./assets/img/blackbackground.png);">
 
-        <section>
+        <!-- FETURED NINJAS OF THE WEEK  -->
+        <div>
             <div class="2xl:pt-24 xl:pt-28 lg:pt-20 md:pt-20 pt-16 2xl:px-36 lg:px-10 px-5">
                 <div class="pt-3">
                     <h1
@@ -98,12 +136,11 @@
                             class="lg:block hidden"> term holder value.</p>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- end FETURED NINJAS OF THE WEEK  -->
 
-
-
-
-        <section>
+        <!-- SHADOWFLARE 2 cards -->
+        <div>
             <div
                 class="w-full lg:flex md:grid grid-cols-2 justify-center 2xl:gap-12 gap-7 2xl:px-36 lg:px-10 px-5 text-white 2xl:pt-24 pt-8">
                 <div class="bg-[#04141C] 2xl:pt-12 pt-6 2xl:px-11 px-5 rounded-[50px] ">
@@ -171,10 +208,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- end SHADOWFLARE 2 cards -->
 
-
-        <section>
+        <!-- BROWSE ALL NINJA COLLECTION -->
+        <div>
             <div class="2xl:pt-24 xl:pt-28 lg:pt-20 md:pt-20 pt-16 2xl:px-36 lg:px-10 px-5">
                 <div class="pt-3">
                     <h1
@@ -188,18 +226,27 @@
                         Filter, discover, and find your ninja.
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- end BROWSE ALL NINJA COLLECTION -->
 
-
-        <section>
+        <!-- 3 cards border animation  -->
+        <div>
             <div
                 class="w-full lg:flex md:grid grid-cols-2 justify-center items-center 2xl:gap-12 gap-4 2xl:pt-24 xl:pt-16 lg:pt-9 pt-8 2xl:px-32  lg:px-10 px-5">
                 <div>
-                    <div class="border-2 border-white/20 2xl:p-6 p-3 rounded-[50px] inline-block">
-                        <div class="">
+                    <div class="relative 2xl:p-6 p-5 rounded-[50px] inline-block overflow-hidden">
+                        <!-- Static Border -->
+                        <div class="absolute inset-0 rounded-[50px] border-2 border-white/20 pointer-events-none"></div>
+
+                        <!-- Moving Line Border (sirf border par, content se chipke na) -->
+                        <div class="absolute inset-[2px] rounded-[48px] animated-border pointer-events-none"></div>
+
+                        <!-- Content -->
+                        <div class="relative z-10 rounded-[50px]">
                             <img src="./assets/img/3rd6.png" class="h-auto" alt="">
                         </div>
                     </div>
+
                     <div>
                         <div class="2xl:pt-7 pt-3">
                             <h1 class="2xl:text-3xl text-xl 2xl:leading-10 leading-6 font-normal text-white">SENSEIMINT
@@ -212,11 +259,18 @@
                     </div>
                 </div>
                 <div>
-                    <div class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block relative md:mt-0 mt-3">
-                        <div class="">
+                    <div
+                        class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block relative md:mt-0 mt-3 overflow-hidden">
+
+                        <!-- Moving Line Border -->
+                        <div class="animated-border pointer-events-none"></div>
+
+                        <!-- Content -->
+                        <div class="relative z-10">
                             <img src="./assets/img/3rd62.png" alt="">
                         </div>
                     </div>
+
                     <div>
                         <div class="2xl:pt-7 pt-3">
                             <h1 class="2xl:text-3xl text-xl 2xl:leading-10 leading- font-normal text-white">
@@ -230,11 +284,17 @@
                 </div>
                 <div>
                     <div
-                        class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block relative lg:mt-0 md:mt-0 mt-3">
-                        <div class="">
+                        class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block relative lg:mt-0 md:mt-0 mt-3 overflow-hidden">
+
+                        <!-- Moving Line Border -->
+                        <div class="animated-border pointer-events-none"></div>
+
+                        <!-- Content -->
+                        <div class="relative z-10">
                             <img src="./assets/img/3rd63.png" alt="">
                         </div>
                     </div>
+
                     <div>
                         <div class="2xl:pt-7 pt-3">
                             <h1 class="2xl:text-3xl text-xl 2xl:leading-10 leading- font-normal text-white">KODEKAGE
@@ -247,17 +307,27 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- end 3 cards border animation -->
 
-        <section>
+        <!-- 3 cards border animation -->
+        <div>
             <div
                 class="w-full lg:flex md:grid grid-cols-2 justify-center items-center 2xl:gap-12 gap-4 2xl:pt-24 xl:pt-16 lg:pt-9 pt-8 2xl:px-32  lg:px-10 px-5">
                 <div>
-                    <div class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block">
-                        <div class="">
+                    <div class="relative 2xl:p-6 p-5 rounded-[50px] inline-block overflow-hidden">
+                        <!-- Static Border -->
+                        <div class="absolute inset-0 rounded-[50px] border-2 border-white/20 pointer-events-none"></div>
+
+                        <!-- Moving Line Border (sirf border par, content se chipke na) -->
+                        <div class="absolute inset-[2px] rounded-[48px] animated-border pointer-events-none"></div>
+
+                        <!-- Content -->
+                        <div class="relative z-10 rounded-[50px]">
                             <img src="./assets/img/4thtoy1.png" class="h-auto" alt="">
                         </div>
                     </div>
+
                     <div>
                         <div class="2xl:pt-7 pt-3">
                             <h1 class="2xl:text-3xl text-xl 2xl:leading-10 leading-6 font-normal text-white">SENSEIMINT
@@ -270,11 +340,18 @@
                     </div>
                 </div>
                 <div>
-                    <div class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block relative md:mt-0 mt-3">
-                        <div class="">
+                    <div
+                        class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block relative md:mt-0 mt-3 overflow-hidden">
+
+                        <!-- Moving Line Border -->
+                        <div class="animated-border pointer-events-none"></div>
+
+                        <!-- Content -->
+                        <div class="relative z-10">
                             <img src="./assets/img/4thtoy2.png" alt="">
                         </div>
                     </div>
+
                     <div>
                         <div class="2xl:pt-7 pt-3">
                             <h1 class="2xl:text-3xl text-xl 2xl:leading-10 leading- font-normal text-white">
@@ -288,11 +365,17 @@
                 </div>
                 <div>
                     <div
-                        class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block relative lg:mt-0 md:mt-0 mt-3">
-                        <div class="">
+                        class="border-2 border-white/20 2xl:p-6 p-5 rounded-[50px] inline-block relative lg:mt-0 md:mt-0 mt-3 overflow-hidden">
+
+                        <!-- Moving Line Border -->
+                        <div class="animated-border pointer-events-none"></div>
+
+                        <!-- Content -->
+                        <div class="relative z-10">
                             <img src="./assets/img/4thtoy3.png" alt="">
                         </div>
                     </div>
+
                     <div>
                         <div class="2xl:pt-7 pt-3">
                             <h1 class="2xl:text-3xl text-xl 2xl:leading-10 leading- font-normal text-white">KODEKAGE
@@ -305,11 +388,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- end 3 cards border animation -->
 
-
-
-        <section>
+        <!-- HOW TO BUY  -->
+        <div>
             <div class="text-center 2xl:pt-72 xl:pt-60 lg:pt-48 md:pt-20 pt-28 2xl:px-36 xl:px-28 lg:px-10 px-5">
                 <div>
                     <p class="2xl:text-base text-xs leading-6 font-semibold text-[#D3ED05]">HOW TO BUY</p>
@@ -377,11 +460,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- end HOW TO BUY  -->
 
-
-
-        <section>
+        <!-- FAQ -->
+        <div>
             <div class="text-center 2xl:pt-72 xl:pt-48 lg:pt-48 md:pt-20 pt-28 2xl:px-36 lg:px-10 px-5">
                 <div>
                     <p class="2xl:text-base text-xs leading-6 font-semibold text-[#D3ED05]">FAQ</p>
@@ -402,8 +485,9 @@
 
             <div class="bg-[#030E14] text-white flex justify-center items-center 2xl:pt-28 lg:pt-14 pt-9">
                 <div class="w-full 2xl:px-36 lg:px-10 px-5 space-y-7">
+
                     <div
-                        class="accordion rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
+                        class="accordion scroll-up rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
                         <button
                             class="accordion-btn w-full flex justify-between items-center text-xs lg:text-2xl xl:text-[28px] 2xl:text-3xl font-semibold leading-6 lg:leading-8 xl:leading-9 2xl:leading-10">
                             What is nftninja?
@@ -417,8 +501,9 @@
                             is packed with distinct traits, rarity, and hidden utility within the ecosystem.
                         </p>
                     </div>
+
                     <div
-                        class="accordion rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
+                        class="accordion scroll-up rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
                         <button
                             class="accordion-btn w-full flex justify-between items-center text-xs lg:text-2xl xl:text-[28px] 2xl:text-3xl font-semibold leading-6 lg:leading-8 xl:leading-9 2xl:leading-10">
                             How can I mint a ninja?
@@ -426,14 +511,15 @@
                                 class="icon bg-[#D3ED05] text-black rounded-full w-8 h-8 lg:w-9 lg:h-9 2xl:w-11 2xl:h-11 flex text-2xl 2xl:text-4xl lg:text-3xl justify-center">+</span>
                         </button>
                         <p
-                            class="accordion-content hidden pt-4 lg:pt-6 text-[#ffffff]/70 text-xs  2xl:text-lg leading-7 lg:leading-9 2xl:leading-10">
+                            class="accordion-content hidden pt-4 lg:pt-6 text-[#ffffff]/70 text-xs 2xl:text-lg leading-7 lg:leading-9 2xl:leading-10">
                             nftninja is a collection of 5,000 unique, masked ninja NFTs living on the Ethereum
                             blockchain. Each ninja
                             is packed with distinct traits, rarity, and hidden utility within the ecosystem.
                         </p>
                     </div>
+
                     <div
-                        class="accordion rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
+                        class="accordion scroll-up rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
                         <button
                             class="accordion-btn w-full flex justify-between items-center text-xs lg:text-2xl xl:text-[28px] 2xl:text-3xl font-semibold leading-6 lg:leading-8 xl:leading-9 2xl:leading-10">
                             Will there be a game or metaverse integration?
@@ -447,8 +533,9 @@
                             is packed with distinct traits, rarity, and hidden utility within the ecosystem.
                         </p>
                     </div>
+
                     <div
-                        class="accordion rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
+                        class="accordion scroll-up rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
                         <button
                             class="accordion-btn w-full flex justify-between items-center text-xs lg:text-2xl xl:text-[28px] 2xl:text-3xl font-semibold leading-6 lg:leading-8 xl:leading-9 2xl:leading-10">
                             What is $shadow and how do I earn it?
@@ -462,8 +549,9 @@
                             is packed with distinct traits, rarity, and hidden utility within the ecosystem.
                         </p>
                     </div>
+
                     <div
-                        class="accordion rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
+                        class="accordion scroll-up rounded-3xl lg:rounded-[30px] 2xl:rounded-[35px] bg-[#081016] border border-[#CFCFCF]/15 overflow-hidden p-4 lg:p-8 2xl:p-10">
                         <button
                             class="accordion-btn w-full flex justify-between items-center text-xs lg:text-2xl xl:text-[28px] 2xl:text-3xl font-semibold leading-6 lg:leading-8 xl:leading-9 2xl:leading-10">
                             What can I do with my nftninja?
@@ -477,70 +565,73 @@
                             is packed with distinct traits, rarity, and hidden utility within the ecosystem.
                         </p>
                     </div>
+
                 </div>
             </div>
+        </div>
+        <!-- end FAQ -->
 
-        </section>
+        <!-- last section div  -->
+        <div>
+            <div class=" 2xl:px-36 lg:px-10 px-5 2xl:pt-48 lg:pt-20 pt-10">
+                <div style="background-image: url('./assets/img/lastbggreen.png');"
+                    class="bg-cover bg-center bg-no-repeat w-full 2xl:h-[664px] xl:h-[552px] lg:h-[485px] md:h-[953px] h-[664px]">
 
 
-        <section>
-            <div class="relative w-full 2xl:px-36 lg:px-10 px-5 2xl:pt-48 lg:pt-20 pt-10">
-                <div class="flex justify-center">
-                    <img src="./assets/img/lastbggreen.png" alt=""
-                        class="w-full 2xl:h-full xl:h-[559px] lg:h-96 h-[564px] object-cover">
-                </div>
+                    <div class="lg:flex justify-between items-center 
+       text-center lg:text-left w-full">
+                        <div class="lg:w-1/2 lg:pl-20 lg:pt-0 pt-5">
+                            <p
+                                class="text-[#D3ED05] font-semibold text-sm lg:text-xs xl:text-lg 2xl:text-base leading-6 fade-up scroll-animate">
+                                GET STARTED
+                            </p>
 
-                <div class="absolute inset-0 flex flex-col lg:flex-row justify-between items-center 
-           pl-5 lg:pl-20 xl:pl-28 2xl:pl-56 pr-5 lg:pr-20 xl:pr-28 2xl:pr-40 
-           text-center lg:text-left 2xl:pt-72 lg:pt-32 pt-20">
+                            <h1 id="animated-heading" class="text-white font-normal text-3xl lg:text-3xl xl:text-5xl 2xl:text-6xl 
+             leading-snug 2xl:leading-[87px] lg:leading-10 mt-2">
+                                <!-- Wrapped words in spans -->
+                                <span>MINT</span> <span>YOUR</span> <span>NINJA</span> <span>TODAY!</span>
+                            </h1>
 
-                    <div class="max-w-xl">
-                        <p class="text-[#D3ED05] font-semibold text-sm lg:text-xs xl:text-lg 2xl:text-base leading-6">
-                            GET STARTED
-                        </p>
+                            <p class="text-[#ffffff]/70 pt-4 text-base lg:text-base xl:text-lg 2xl:text-xl 
+          leading-relaxed font-normal lg:px-0 px-3 fade-up scroll-animate">
+                                Join the nftninja clan on Discord and Twitter to connect with fellow collectors, get
+                                early updates.
+                            </p>
 
-                        <h1 class="text-white font-normal text-3xl lg:text-3xl xl:text-5xl 2xl:text-6xl 
-                 leading-snug 2xl:leading-[87px] lg:leading-10 mt-2">
-                            MINT YOUR <br class="hidden lg:block"> NINJA TODAY!
-                        </h1>
+                            <div
+                                class="2xl:py-5 lg:py-2 py-2 2xl:px-14 lg:px-4 px-5 rounded-lg bg-[#D3ED05] inline-block mt-6 lg:mt-6 from-left-bottom scroll-animate">
+                                <button
+                                    class="2xl:text-xl xl:text-lg lg:text-sm text-xs font-semibold leading-6 text-black">
+                                    Mint Your Ninja
+                                </button>
+                            </div>
+                        </div>
 
-                        <p class="text-[#ffffff]/70 pt-4 text-base lg:text-base xl:text-lg 2xl:text-xl 
-                leading-relaxed font-normal lg:px-0 px-3">
-                            Join the nftninja clan on Discord and Twitter to connect with fellow
-                            <br class="2xl:block xl:hidden lg:hidden hidden"> collectors, get early updates.
-                        </p>
-
-                        <div
-                            class="2xl:py-5 lg:py-2 py-2 2xl:px-14 lg:px-4 px-5 rounded-lg bg-[#D3ED05] inline-block mt-6 lg:mt-6">
-                            <button
-                                class="2xl:text-xl xl:text-lg lg:text-sm text-xs font-semibold leading-6 text-black">
-                                Mint Your Ninja
-                            </button>
+                        <div class="from-right scroll-animate lg:w-1/2 lg:pt-6 pt-4">
+                            <img src="./assets/img/dubbletoy.png" alt=""
+                                class="ml-auto 2xl:w-auto xl:w-[545px] w-full ">
                         </div>
                     </div>
-
-                    <div class="">
-                        <img src="./assets/img/dubbletoy.png" alt=""
-                            class="w-full max-w-56 md:max-w-72 lg:max-w-[586px] xl:max-w-lg 2xl:max-w-xl">
-                    </div>
                 </div>
             </div>
+        </div>
+        <!-- end last section div  -->
 
-
-
-
-        </section>
-
-
+        <!-- back to top button -->
         <div class="w-full flex justify-center py-6 2xl:mt-48 mt-10">
-            <button id="backToTop" class="flex items-center gap-2 text-white px-6 py-3 ">
-                <i class="fa-solid fa-arrow-up 2xl:text-2xl text-xs"></i>
-                <span class="font-semibold 2xl:text-3xl text-sm leading-8">Back to top</span>
+            <button id="backToTop"
+                class="flex items-center gap-2 text-white px-6 py-3 transition-colors duration-300 group">
+
+                <i class="fa-solid fa-arrow-up 2xl:text-2xl text-xs group-hover:text-[#D3ED05] animate-bounce-slow"></i>
+                <span class="font-semibold 2xl:text-3xl text-sm leading-8 group-hover:text-[#D3ED05]">
+                    Back to top
+                </span>
             </button>
         </div>
+        <!-- end back to top button -->
 
 
-
+        <!-- footer -->
         <footer>
             <div
                 class="lg:flex md:grid grid-cols-2 items-start justify-between 2xl:px-24 lg:px-10 px-5 2xl:pt-24 pt-12">
@@ -580,16 +671,16 @@
                                 Company</p>
                         </div>
                         <ul class="2xl:pt-12 xl:pt-5 pt-1">
-                            <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 ">About
+                            <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 "><a
+                                    href="./latest news.html">latest news</a></li>
+                            <li
+                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
+                                <a href="./ninja collection.html">collection</a>
                             </li>
                             <li
                                 class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Blog
+                                <a href="./single blog page.html">Blog Details</a>
                             </li>
-                            <li
-                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Blog
-                                Details</li>
                         </ul>
                     </div>
                     <div class="">
@@ -598,14 +689,15 @@
                             </p>
                         </div>
                         <ul class="2xl:pt-12 xl:pt-5 pt-1">
-                            <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70">Home
+                            <li class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70"><a
+                                    href="index.html">Home</a></li>
+                            <li
+                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
+                                <a href="./about us.html">About Us</a>
                             </li>
                             <li
                                 class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Tokenomics</li>
-                            <li
-                                class="2xl:text-xl xl:text-base text-xs leading-8 font-normal text-[#ffffff]/70 2xl:pt-6 pt-2">
-                                Team
+                                <a href="./contact us.html">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -649,64 +741,116 @@
                 </div>
             </div>
         </footer>
-    </section>
-
-
+        <!-- end footer -->
 
     </section>
-  <script>
-    const toggleBtn = document.getElementById('menu-toggle');
-    const mobileMenu = document.getElementById('mobile-menu');
 
-    toggleBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
-      mobileMenu.classList.toggle('flex'); // Show flex when open
+    <!-- toggle button script -->
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
 
-      // Animate hamburger into X
-      const spans = toggleBtn.querySelectorAll('span');
-      spans[0].classList.toggle('rotate-45');
-      spans[0].classList.toggle('translate-y-2');
-      spans[1].classList.toggle('opacity-0');
-      spans[2].classList.toggle('-rotate-45');
-      spans[2].classList.toggle('-translate-y-2');
-    });
-  </script>
+        toggleBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('flex'); // Show flex when open
 
+            // Animate hamburger into X
+            const spans = toggleBtn.querySelectorAll('span');
+            spans[0].classList.toggle('rotate-45');
+            spans[0].classList.toggle('translate-y-2');
+            spans[1].classList.toggle('opacity-0');
+            spans[2].classList.toggle('-rotate-45');
+            spans[2].classList.toggle('-translate-y-2');
+        });
+    </script>
+    <!-- end toggle button script -->
 
+    <!-- accordion script -->
+    <script>
+        const accordions = document.querySelectorAll('.accordion');
 
-<script>
-    const accordions = document.querySelectorAll('.accordion');
+        accordions.forEach(acc => {
+            const btn = acc.querySelector('.accordion-btn');
+            const content = acc.querySelector('.accordion-content');
+            const icon = acc.querySelector('.icon');
 
-    accordions.forEach(acc => {
-      const btn = acc.querySelector('.accordion-btn');
-      const content = acc.querySelector('.accordion-content');
-      const icon = acc.querySelector('.icon');
+            btn.addEventListener('click', () => {
+                const isOpen = !content.classList.contains('hidden');
 
-      btn.addEventListener('click', () => {
-        const isOpen = !content.classList.contains('hidden');
+                // Close all accordions
+                document.querySelectorAll('.accordion-content').forEach(c => c.classList.add('hidden'));
+                document.querySelectorAll('.icon').forEach(i => i.textContent = '+');
 
-        // Close all accordions
-        document.querySelectorAll('.accordion-content').forEach(c => c.classList.add('hidden'));
-        document.querySelectorAll('.icon').forEach(i => i.textContent = '+');
+                // Toggle current
+                if (!isOpen) {
+                    content.classList.remove('hidden');
+                    icon.textContent = '−';
+                }
+            });
+        });
+    </script>
+    <!-- end accordion script -->
 
-        // Toggle current
-        if (!isOpen) {
-          content.classList.remove('hidden');
-          icon.textContent = '−';
+    <!-- back to top script -->
+    <script>
+        const backToTop = document.getElementById("backToTop");
+
+        backToTop.addEventListener("click", () => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+    <!-- end back to top script -->
+
+    <!-- hero section h1 animation -->
+    <script>
+        window.addEventListener('load', () => {
+            document.querySelector('.animate-two').classList.add('active');
+        });
+    </script>
+    <!-- end hero section h1 animation -->
+
+    <!-- slid   -->
+    <script>
+        // Scroll staggered reveal animation
+        const scrollElements = document.querySelectorAll('.scroll-up');
+
+        function revealOnScroll() {
+            const windowHeight = window.innerHeight;
+            scrollElements.forEach((el, index) => {
+                const elementTop = el.getBoundingClientRect().top;
+                const triggerPoint = windowHeight * 0.85;
+                if (elementTop < triggerPoint) {
+                    // Add delay per accordion for stagger effect
+                    setTimeout(() => {
+                        el.classList.add('active');
+                    }, index * 200); // 0.2s delay per item
+                }
+            });
         }
-      });
-    });
-  </script>
 
+        window.addEventListener('scroll', revealOnScroll);
+        window.addEventListener('load', revealOnScroll);
+    </script>
+    <!-- end slid animation -->
 
+    <!-- last section animation  -->
+    <script>
+        const elements = document.querySelectorAll(".scroll-animate, #animated-heading");
 
-<script>
-    const backToTop = document.getElementById("backToTop");
+        function checkScroll() {
+            elements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    el.classList.add("active");
+                }
+            });
+        }
 
-    backToTop.addEventListener("click", () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-  </script>
+        // Trigger on scroll + load
+        window.addEventListener("scroll", checkScroll);
+        window.addEventListener("load", checkScroll);
+    </script>
+    <!-- end last section animation  -->
 
 </body>
 
